@@ -12,6 +12,7 @@ def validate(root):
         'references/style-evidence.md', 'references/reading-protocol.md',
         'references/note-template.md', 'references/publishing.md',
         'references/quality-gates.md',
+        'scripts/validate_note.py',
     ]
     for relative in required:
         if not (root / relative).is_file():
